@@ -1,0 +1,23 @@
+{
+    "name": "wyang14/laravel-web3-storage",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wyang14",
+            "email": "william.1022@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Web3\\Storage\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "10.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.10"
+    }
+}
